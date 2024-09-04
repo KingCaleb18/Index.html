@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night</title>
+    <style>
+        /* Apply a universal box-sizing rule */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set a full-screen background image */
+        body {
+            background-image: url('https://dep-bucket1234.s3.amazonaws.com/81993.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Arial', sans-serif;
+            color: #d1e7ff; /* Light blue text color to complement the moonlit theme */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Container to hold content with a slight background overlay */
+        .container {
+            background-color: rgba(0, 0, 0, 0.7); /* Darker overlay to match the background */
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8); /* Adding a shadow for depth */
+        }
+
+        /* Style the header */
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #9bd1ff; /* Soft blue color for the header to stand out */
+        }
+
+        /* Style the description */
+        .description p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            font-style: italic;
+            color: #82c0ff; /* Lighter blue for the description */
+        }
+
+        /* Style the content paragraph */
+        .content p {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #c0dfff; /* Slightly different blue for contrast in the main text */
+        }
+
+        /* Add a subtle shadow to text */
+        h1, p {
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); /* Stronger shadow for better contrast */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rukia</h1>
+        </header>
+        <section class="description">
+            <p>In the cold embrace of the moon, a lone warrior stands, watching over the world.</p>
+        </section>
+        <section class="content">
+            <p>
+                Beneath the vast and starry sky, this enigmatic figure wields a sword as sharp as their resolve. 
+                Bathed in the ethereal glow of the moon, they are a guardian of the shadows, a silent protector 
+                against the unseen threats lurking in the night. The butterflies that flutter around symbolize 
+                the fleeting nature of life, delicate yet resilient, much like the warrior's unyielding spirit.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
